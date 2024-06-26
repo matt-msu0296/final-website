@@ -110,3 +110,15 @@ body {
     list-style-type: none;
 }
 
+.footer {
+    text-indent: 30px;
+    margin-top: 10px;
+    padding: 40px;
+}
+
+.footer-btns ul{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
