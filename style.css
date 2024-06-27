@@ -10,12 +10,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.top-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .logo {
     display: flex;
     margin-right: 1250px;
@@ -45,6 +39,10 @@ body {
     height: 40px;
     background-color: #ccc;
     border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .information {
@@ -122,3 +120,95 @@ body {
     display: flex;
     justify-content: center;
 }
+
+.budget-page {
+    padding: 20px;
+}
+
+.overview {
+    background-color: #e0f7fa;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.overview-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.overview-content div {
+    flex-basis: 30%;
+    text-align: center;
+}
+
+.categories {
+    background-color: #c7e9c0;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.category-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.category {
+    flex-basis: 30%;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.transactions {
+    background-color: #dcc4f2;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.transactions table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.transactions th, .transactions td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.add-transaction {
+    background-color: #fffde7;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.add-transaction form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-transaction label {
+    margin-bottom: 5px;
+}
+
+.add-transaction input, .add-transaction select {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.add-transaction button {
+    padding: 10px;
+    background-color: #009688;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
